@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ============== توکن از متغیر محیطی ==============
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8898122424:AAHGGCfEF7Pd3p7hDQolg2-_PBFo16PcsNo")
 if not BOT_TOKEN:
     raise ValueError("❌ توکن پیدا نشد! متغیر BOT_TOKEN را تنظیم کنید.")
 
